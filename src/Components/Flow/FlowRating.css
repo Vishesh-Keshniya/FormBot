@@ -1,0 +1,61 @@
+.flow-rating {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .circle:hover {
+    transform: scale(1.1);
+  }
+  
+  .circle.selected {
+    background-color: orange;
+  }
+  
+  .FlowRating
+  {
+    background: #1A5FFF;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .flow-button
+  {
+    background: #1A5FFF;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+   
+    color: white;
+    
+   
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer; 
+  }
+
+  .flow-button.selected
+  {
+    background-color: orange;
+    color: white;
+  }
+

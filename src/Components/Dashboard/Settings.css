@@ -1,0 +1,133 @@
+/* Default dark theme styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1F1F23;
+  color: #fff;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.inputContainer {
+  position: relative;
+  margin-bottom: 20px;
+  padding-right: 50px;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.eyeIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.input1 {
+  padding: 10px 10px 10px 40px; /* Space for icon */
+  width: 100%;
+  background: #1F1F23;
+  border: 1px solid grey;
+  border-radius: 10px;
+  color: white;
+}
+
+.update-button {
+  padding: 10px;
+  width: 100%;
+  background: #1A5FFF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.update-button:hover {
+  background: #3d6edf;
+}
+
+.logoutContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logoutIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.logoutButton {
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Light theme styles */
+.container.light {
+  background-color: #F0F0F0; /* Light background color */
+  color: black; /* Dark text for light theme */
+}
+
+.container.light .input {
+  background: #ffffff; /* Light input background */
+  border: 1px solid #ddd; /* Lighter border color */
+  color: black; /* Dark text for input */
+}
+
+.container.light .update-button {
+  background: #4CAF50; /* Green background for light theme */
+  color: black; /* Dark text */
+}
+
+.container.light .update-button:hover {
+  background: #45a049; /* Darker green on hover */
+}
+
+.container.light .logoutButton {
+  color: #d9534f; /* Red color for logout */
+}
+
+/* Optional: Additional light theme variations for icons or other elements */
+.container.light .icon {
+  color: #555; /* Darker icon for better visibility */
+}
+
+.container.light .eyeIcon {
+  color: #555; /* Darker eye icon */
+}
+
+.container.light .logoutIcon {
+  color: #d9534f; /* Red logout icon */
+}
+
+.setting-logout
+{
+  margin-top: -10vh;
+  margin-left: -160vh;
+}

@@ -1,0 +1,145 @@
+.workspace-navwork {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: #18181B;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+}
+
+.renamework .rename-inputwork {
+  background-color: #333;
+  color: #ccc;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  width: 200px;
+}
+
+.renamework .rename-inputwork::placeholder {
+  color: #666;
+}
+
+.mid-buttonwork {
+  display: flex;
+  gap: 10px;
+}
+
+.flow-buttonwork,
+.response-buttonwork {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.flow-buttonwork.active,
+.response-buttonwork:hover {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.rest-buttonswork {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.theme-togglework {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.switchwork {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+}
+
+.switchwork input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.sliderwork {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #555;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.sliderwork:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+input:checked + .sliderwork {
+  background-color: #007bff;
+}
+
+input:checked + .sliderwork:before {
+  transform: translateX(14px);
+}
+
+.share-from-buttonwork {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-buttonwork {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-buttonwork {
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.light .workspace-navwork
+{
+  background: white;
+  border-bottom: #18181B 2px solid;
+}
+
+.light .renamework .rename-inputwork
+{
+  background: #f0f0f0;
+  color: #000;
+  border: #000 1px solid;
+}
+.light .theme-togglework
+{
+  color: #000;
+}

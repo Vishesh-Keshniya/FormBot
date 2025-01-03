@@ -1,0 +1,62 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: #171923; /* Dark background color */
+    color: #fff; /* White text color */
+
+  }
+  
+  /* Left Section */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .brand-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Right Section */
+  .navbar-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-signin {
+    background: none;
+    color:#7EA6FF;
+    border: 1px solid #7EA6FF;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-create {
+    background-color: #1A5FFF;
+    font-weight: bolder;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+  }
+  
+  /* Button Hover Effects */
+  .btn-signin:hover {
+    background-color: #c0d2e2;
+    color: #1e1e2f;
+  }
+  
+  .btn-create:hover {
+    background-color: #5a7fc7;
+  }
+  

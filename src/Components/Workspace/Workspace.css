@@ -1,0 +1,210 @@
+/* Workspace.css */
+.workspace-work {
+  display: flex;
+  min-height: 90vh;
+  height: auto;
+  background-color: #1F1F23;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar-work {
+  width: 300px;
+  background-color: #18181B;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.section-work {
+  margin-bottom: 20px;
+}
+
+.section-title-work {
+  font-size: 14px;
+  font-weight: bold;
+  color: #f9f9f9;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.button-grid-work {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.tool-button-work {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  background: #1F1F23;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  gap: 10px;
+}
+
+.tool-button-work:hover {
+  background-color: #404040;
+}
+
+.icon-work {
+  width: 20px;
+  height: 20px;
+}
+
+.main-panel-work {
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.start-button-work {
+  background-color: #18181B;
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 250px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.workflow-list-work {
+  list-style: none;
+}
+
+.workflow-list-work li {
+  padding-top: 40px;
+}
+
+.msg-work {
+  font-size: smaller;
+  color: #515151;
+}
+
+
+/* Global styles for dark and light themes */
+.workspace-container-work {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-theme {
+  background-color: #1F1F23;
+  color: #fff;
+}
+
+/* Rest of your styles */
+.workspace-navwork {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: #18181B;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+}
+
+.renamework .rename-inputwork {
+  background-color: #333;
+  color: #ccc;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  width: 200px;
+}
+
+.renamework .rename-inputwork::placeholder {
+  color: #666;
+}
+
+.mid-buttonwork {
+  display: flex;
+  gap: 10px;
+}
+
+.flow-buttonwork,
+.response-buttonwork {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.flow-buttonwork.active,
+.response-buttonwork:hover {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+/* Light theme overrides */
+.light .flow-buttonwork,
+.light .response-buttonwork {
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+
+.light .save-buttonwork {
+  background-color: #6EE599;
+}
+.light .share-from-buttonwork
+{
+  background-color: #007bff;
+}
+.light .workspace-work {
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.light .sidebar-work 
+{
+  background-color: #f9f9f9;
+  border: #000 solid 1px;
+  
+}
+.light .section-title-work
+{
+  color: #000;
+}
+
+.light .tool-button-work
+{
+  background: white;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.light .tool-button-work:hover
+{
+  background: rgb(237, 225, 225);
+}
+
+.light .start-button-work
+{
+  background-color: white;
+  color: #000000;
+  border: #000 solid 1px;
+}
+

@@ -1,0 +1,142 @@
+/* Overlay for the modal */
+.share-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal container */
+.share-modal {
+  padding: 50px;
+  border-radius: 20px;
+  width: 400px;
+  border: #3a3a3c solid 1px;
+  position: relative;
+  color: #fff; /* default text color */
+  background: #18181B;
+}
+
+/* Dark theme */
+.share-modal.dark {
+  background-color: #18181b;
+  border: #3a3a3c solid 1px;
+}
+
+/* Light theme */
+.share-modal.light {
+  background-color: #fff;
+  border: #ccc solid 1px;
+  color: #000; /* light theme text color */
+}
+
+/* Modal header */
+.share-modal-header {
+  text-align: right;
+}
+
+/* Close button */
+.close-button {
+  color: #fff;
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Modal title */
+.share-modal-title {
+  margin: 20px 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Specific style for light theme title */
+.share-modal.light .share-modal-title {
+  color: #000; /* make title text black in light theme */
+}
+
+/* Email input container */
+.email-input-container {
+  position: relative;
+  margin-bottom: 30px;
+  padding-right: 40px;
+}
+
+/* Email input field */
+.email-input {
+  width: 90%;
+  padding: 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #1f1f23;
+  color: #fff;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Light theme input field */
+.share-modal.light .email-input {
+  background-color: #f7f7f7;
+  color: #000;
+}
+
+/* Placeholder color for input fields in light theme */
+.share-modal.light .email-input::placeholder {
+  color: #bbb; /* Light gray placeholder */
+}
+
+/* Dropdown toggle */
+.dropdown {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #ccc;
+}
+
+/* Dropdown menu */
+.dropdown-menu-share {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  background-color: #18181b;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  margin-top: -20px;
+  border-bottom: 3px solid #3a3a3c;
+  border-left: 3px solid #3a3a3c;
+  border-right: 3px solid #3a3a3c;
+  cursor: pointer;
+}
+
+.share-modal.light .dropdown-menu-share {
+  background-color: #fff;
+  border: 3px solid #ccc;
+}
+
+/* Button styles */
+.send-invite-button,
+.copy-link-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.share-modal.light .send-invite-button,
+.share-modal.light .copy-link-button {
+  background-color: #007bff;
+}

@@ -1,0 +1,53 @@
+.footer {
+  background-color: #171923;
+  color: #ffffff;
+  padding-bottom: 80px;
+}
+
+.footer-container {
+  display: flex;
+  padding-left: 200px;
+  padding-right: 100px;
+ 
+ 
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+  min-width: 200px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  text-align: left; /* Aligns all list items to the left */
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+  text-align: left; /* Ensures each list item is left-aligned */
+}
+
+.footer-section ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: inline-block; /* Ensures icons align properly with text */
+}
+
+
+
+.footer-section ul li a:hover {
+  color: #474dff;
+}
+
+.brand-name
+{
+  font-size: x-large;
+}

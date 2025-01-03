@@ -1,0 +1,141 @@
+/* General Page Styling */
+.login-page {
+    background-color: #121212;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Orange Triangle Styling */
+  .orange-triangle {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 350px;
+    height: 200px;
+  }
+  
+  .orange-triangle img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Pink Ellipse Styling */
+  .pink-ellipse {
+    position: absolute;
+    top: 20%;
+    right: -2%;
+    width: 120px;
+    height: 70px;
+  }
+  
+  .pink-ellipse img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Bottom Circle Styling */
+  .bottom-circle {
+    position: absolute;
+    bottom: -5%;
+    right: 25%;
+    width: 200px;
+    height: 150px;
+  }
+  
+  .bottom-circle img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Login Container */
+  .login-container {
+    background-color: transparent;
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form label {
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  form input {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .btn {
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login-btn {
+    background-color: #1A5FFF;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .google-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A5FFF;
+    color: #fff;
+    gap: 10px;
+  }
+  
+  .google-btn img {
+    width: 20px;
+    border: 1px solid #ffffff;
+    background: white;
+    border-radius: 50%;
+    padding: 2px;
+  }
+  
+  .or {
+    color: #aaa;
+  }
+  
+  .register {
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  
+  .register a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .message {
+    color: rgb(255, 255, 255);
+    margin-top: -10px;
+    text-align: left;
+  }
+  
+  /* Back Button Styling */
+  .back-button-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  

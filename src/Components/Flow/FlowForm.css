@@ -1,0 +1,112 @@
+.flow-rating {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .circle:hover {
+    transform: scale(1.1);
+  }
+  
+  .circle.selected {
+    background-color: orange;
+  }
+  
+  .FlowRating
+  {
+    background: #1A5FFF;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .flow-button
+  {
+    background: #1A5FFF;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+   
+    color: white;
+    
+   
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer; 
+  }
+
+  .flow-button.selected
+  {
+    background-color: orange;
+    color: white;
+  }
+
+  .Flow-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .Flow-input input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    color: black;
+  }
+  
+  .Flow-input input:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Flow-input button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #007BFF;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .Flow-input button img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .Flow-input button:hover {
+    transform: scale(1.1);
+  }
+  
+  .Flow-input button:active {
+    transform: scale(1);
+  }
+  

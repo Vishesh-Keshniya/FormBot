@@ -1,0 +1,22 @@
+.response-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Full height of the viewport */
+    background-color: #1a1a1a; /* Dark background */
+    font-family: Arial, sans-serif;
+  }
+  
+  .response-text {
+    font-size: 24px;
+    color: #808080; /* Gray text color */
+  }
+  .light.response-container
+ {
+    background: #f0f0f0;
+    border: #000 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+ 
+ }
